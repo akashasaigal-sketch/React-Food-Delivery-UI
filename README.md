@@ -1,33 +1,16 @@
-Food Delivery Application Frontend
-A modern, fast, and responsive Food Delivery Application frontend interface built with React and Tailwind CSS. This application features a seamless user experience for browsing food items, selecting categories, viewing item details, and managing a real-time shopping cart.
+# React + Vite
 
-🚀 Features
-Dynamic Food Browsing: Explore premium food options from various categories like Pizza, Burgers, Desi, and Desserts.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Category Filtering UI: Interactive category buttons to easily sort and find specific food items.
+Currently, two official plugins are available:
 
-Interactive Modals: Detailed item views using smooth modal popups.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Real-time Shopping Cart:
+## React Compiler
 
-Add items instantly from the menu.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Live updates for total cart count in the navigation bar.
+## Expanding the ESLint configuration
 
-Slide-out cart drawer to increase, decrease, or completely remove item quantities.
-
-Modern UI/UX: Styled with a sleek dark theme (slate-950) and responsive grids optimized for both mobile and desktop screens.
-
-🛠️ Tech Stack
-Frontend Framework: React
-
-Styling: Tailwind CSS
-
-Icons: Lucide React
-
-📦 Core Architecture & State Management
-The core logic is handled efficiently within the main entry point (App.js) utilizing React's state management:
-
-Cart State (cart): Dynamically updates item quantities and automatically filters out items when their quantity reaches zero.
-
-UI Controls (cartOpen, selectedItem): Toggles the visibility of the slide-out Cart Drawer and Menu Modals seamlessly.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
